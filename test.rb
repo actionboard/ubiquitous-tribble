@@ -1,4 +1,5 @@
 require 'aws-sdk-textract'
+require 'open-uri'
 
 client = Aws::Textract::Client.new(
   region:      'ap-south-1',

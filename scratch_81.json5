@@ -1,0 +1,51 @@
+{
+  "document_date_string": '15 Nov 2021', // high value
+  "document_date": '2011-11-15', // high value
+  "invoice_number": 'OTH-112122-00033', // high value
+  "place_of_supply_string": 'Tamil Nadu (State Code - 33)',
+  "place_of_supply_code": 33,
+  "irn": '6f2ae3cb32bc3cb8bb58fdc83ecc3d4b4d951c547a2db343489930b1f1b4e080',
+  "acknowledgement_number": '152111333575197',
+  "acknowledgement_date": '16/11/2021 17:54',
+  "reverse_charge": 'no',
+  "total_invoice_value": 21589280, // high value
+  "total_cgst": 1646640, // high value
+  "total_sgst": 1646640, // high value
+  "total_igst": 0, // high value
+  "total_basic_value": 18296000, // high value
+  "po_date": '2011-11-15',
+  "due_date": '2011-11-20',
+  "credit_period": 5,
+  "vendor": {
+    "name": 'IIT MADRAS RESEARCH PARK', // high value
+    "address": [
+      'First Floor, Kanagam Road',
+      'Tharamani, Chennai,',
+      'Tamil Nadu 600113'
+    ],
+    "gstin": '33AABCI5225P1ZG', // high value
+    "bank_account": '31180698198', // moderate value
+    "ifsc_code": 'SBIN0001055' // moderate value
+  },
+  "customer": {
+    "name": 'ICT ACADEMY OF TAMIL NADU',
+    "gstin": '33AAAAI2467E1Z2' // high value
+  },
+  "lines": [
+    // moderate value
+    {
+      "position": 1,
+      "description": "Upfront Advance License fee for 9148 sq.ft @ Rs.2000/-per sq.ft (SAC: 997212)",
+      "quantity": 12,
+      "rate": 1234,
+      "invoice_value": 21589280,
+      "cgst": 1646640,
+      "sgst": 1646640,
+      "igst": 0,
+      "basic_value": 18296000,
+    }
+  ],
+  "label_value_pairs": {
+
+  }
+}
